@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+		<ModInfo>
+			<Name value="HitBar"/>
+			<Description value="A19 A20 HUD addon HitBar/health bar"/>
+			<Author value="KonradSB"/>
+			<Version value="1.10"/>
+			<Website value=""/>
+		</ModInfo>
+	</xml>
