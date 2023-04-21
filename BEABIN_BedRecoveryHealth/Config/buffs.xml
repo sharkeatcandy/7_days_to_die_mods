@@ -1,0 +1,16 @@
+<configs>
+	<!-- 2020/6/28  By 無云 -->
+	<append xpath="/buffs">
+		<buff name="buffStandingOnBedRecoveryHealth" name_key="buffStandingOnBedRecoveryHealthName" description_key="buffStandingOnBedRecoveryHealthDesc" tooltip_key="buffStandingOnBedRecoveryHealthTooltip" icon="ui_game_symbol_map_bed" icon_color="0,230,0" icon_blink="true">
+			<stack_type value="replace"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.6" effect_name="Drunk"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" value_type="modifiedmax" stat="Health" target="self" operation="add" value="0.25"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" target="self" operation="add" value="0.25"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" value_type="modifiedmax" stat="stamina" target="self" operation="add" value="0.5"/>
+			</effect_group>
+		</buff>
+	</append>
+</configs>

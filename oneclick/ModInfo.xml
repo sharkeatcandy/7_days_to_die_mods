@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Shark Mod" />
+        <Description value="Faster collect and upgrade with stone axe" />
+        <Author value="Shark" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

@@ -1,0 +1,4 @@
+<configs>
+	<!-- 2020/6/28  By 無云 -->
+	<set xpath="/progression/level[@exp_to_level='10000']/@max_level">999</set>
+</configs>

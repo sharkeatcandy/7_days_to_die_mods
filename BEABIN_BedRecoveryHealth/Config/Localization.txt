@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+buffStandingOnBedRecoveryHealthName,buffs,Buff,,,Good night sleep,,,,,,良い夜の睡眠,,,,,,一夜好眠,一夜好眠,
+buffStandingOnBedRecoveryHealthDesc,buffs,Buff,,,Take a break when you are busy.,,,,,,忙しいときは休憩してください。,,,,,,在怎麽忙也要休息一下。,在怎麼忙也要休息一下。,
+buffStandingOnBedRecoveryHealthTooltip,buffs,Buff,,,"Thanks to the bed, HP and stamina are gradually recovering!",,,,,,ベッドのおかげで、HPとスタミナは徐々に回復しています！,,,,,,因为床，所以睡眼惺忪，生命力与耐力逐渐在回復中！,因為床，所以睡眼惺忪，生命力與耐力逐漸在回復中！,

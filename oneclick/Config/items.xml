@@ -1,0 +1,7 @@
+<configs>
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">4000</set>
+    <set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-10</set>
+    <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">580</set>
+    <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">485</set>
+    <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">385</set>
+</configs>

@@ -1,0 +1,21 @@
+<configs>
+	<!-- 2020/6/28  By 無云 -->
+	<append xpath="/blocks/block[@name='bedroll']">
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bed01']">
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bed02']">
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='gurneyBed']">
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='hospitalBed']">
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bunkBedMade']"><!-- A19 -->
+		<property name="BuffsWhenWalkedOn" value="buffStandingOnBedRecoveryHealth"/>
+	</append>
+</configs>
