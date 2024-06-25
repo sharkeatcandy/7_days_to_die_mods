@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Razor's Faster Vehicles" />
-		<Description value="Improved all of vehicles' maximum speed by at least 50%." />
-		<Author value="Razor" />
-		<Version value="1.0" />
-	</ModInfo>
+	<Name value="Shark_Mod_Faster_Vehicles" />
+	<DisplayName value="Shark Mod - Faster Vehicles" />
+	<Description value="Improved all of vehicles' maximum speed" />
+	<Author value="Shark" />
+	<Version value="1.1.0.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
 </xml>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<xml>
-		<ModInfo>
-			<Name value="HitBar"/>
-			<Description value="A19 A20 HUD addon HitBar/health bar"/>
-			<Author value="KonradSB"/>
-			<Version value="1.10"/>
-			<Website value=""/>
-		</ModInfo>
-	</xml>
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Shark_Mod_HitBar" />
+	<DisplayName value="Shark Mod - HitBar" />
+	<Description value="Show hit bar" />
+	<Author value="Shark" />
+	<Version value="1.1.0.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>
