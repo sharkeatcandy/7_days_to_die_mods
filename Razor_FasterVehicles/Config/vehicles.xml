@@ -1,15 +1,28 @@
 <configs>
-	<!-- Makes changes to all vehicles's velocityMax to our desired value -->
+	<!-- Makes changes to all vehicles's velocityMax_turbo to our desired value -->
 	<!-- The original values of each vehicles are as followed: -->
-	<!-- Gyrocopter			7,10	-->
-	<!-- Bicycle			5,10	-->
-	<!-- Minibike			7,10	-->
-	<!-- Motorcycle			9,14	-->
-	<!-- Truck				9,13	-->
+	<!-- Gyrocopter			9, 9, 15, 9		-->
+	<!-- Jokeblimp			18, 18, 25, 25	-->
+	<!-- Bicycle			6, 4, 8.5, 4	-->
+	<!-- Minibike			7, 4, 9.2, 4	-->
+	<!-- Motorcycle			9.8, 6, 14, 8	-->
+	<!-- Truck				10, 8, 14, 10	-->
 	<!-- The latter value is maximum speed a vehicle can reach; in meter per second. -->
-	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">30,40</set>
-	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">30,40</set>
-	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">30,40</set>
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">30,40</set>
-	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">30,40</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">30, 20, 40, 20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleJokeblimp']/property[@name='velocityMax_turbo']/@value">40, 40, 50, 50</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">30, 20, 40, 20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">30, 20, 40, 20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">30, 20, 40, 20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">30, 20, 40, 20</set>
+	<!-- <insertAfter xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat3']">
+		<property class="seat4">
+			<property name="position" value="0, .75, -2.15"/>
+			<property name="rotation" value="-33, 180, 0"/>
+			<property name="exit" value=".8,0,-2.8 ~ -1.6,0,-2 ~ 1.6,0,-2 ~ -.5,0,-2.8 ~ -.5,0,2.6 ~ -.4,2.1,-1"/>
+			<property name="IKHandLPosition" value="-.27, .87, .14"/>
+			<property name="IKHandLRotation" value="41, -30, 18"/>
+			<property name="IKHandRPosition" value=".27, .87, .14"/>
+			<property name="IKHandRRotation" value="41, 30, -18"/>
+		</property>
+	</insertAfter> -->
 </configs>
