@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Alter_SharedReading"/>
+	<DisplayName value="SharedReading"/>
+	<Version value="1.2"/>
+	<Description value="SharedReading"/>
+	<Author value="Alter"/>
+	<Website value=""/>
+	<SkipWithAntiCheat value="true" />
+</xml>
+

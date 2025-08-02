@@ -1,0 +1,2 @@
+Key,tchinese
+msgSharedReading,"因為隊友閱讀了書籍，奇怪的知識增加了"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Shark_Mod_OneClick" />
-	<DisplayName value="Shark Mod - OneClick" />
-	<Description value="Faster collect and upgrade with stone axe and super bow" />
+	<Name value="Shark_Mod_NoNoise" />
+	<DisplayName value="Shark Mod - Remove noise" />
+	<Description value="Remove noise" />
 	<Author value="Shark" />
 	<Version value="1.1.0.4" />
 	<Website value="" />

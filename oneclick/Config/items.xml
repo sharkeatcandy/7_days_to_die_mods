@@ -4,4 +4,19 @@
     <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">580</set>
     <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">485</set>
     <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">385</set>
+    <set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus'][@operation='base_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus'][@operation='base_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus'][@operation='base_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus'][@operation='base_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus'][@operation='base_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">20</set>
+    <set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='sneak damage bonus']/display_value[@name='dEntityDamageSneak']/@value">20</set>
 </configs>

@@ -1,0 +1,1132 @@
+<configs>
+	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunBarrelExtenderSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunMuzzleBrakeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunSoundSuppressorSilencerSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunLaserSightSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunLaserSightSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunFlashlightSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunFlashlightSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeSmallSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunScopeSmallSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeMediumSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunScopeMediumSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeLargeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunScopeLargeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunReflexSightSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunReflexSightSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunTriggerGroupSemiSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunTriggerGroupBurst3Schematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunTriggerGroupAutomaticSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunBipodSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunBipodSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunForegripSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunForegripSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunRetractingStockSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunRetractingStockSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunDuckbillSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunDuckbillSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunChokeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunChokeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunMagazineExtenderSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modShotgunSawedOffBarrelSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunCrippleEmSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunCrippleEmSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunBowPolymerStringSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunBowArrowRestSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunMeleeTheHunterSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modGunMeleeRadRemoverSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeTemperedBladeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeSerratedBladeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeWeightedHeadSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeStructuralBraceSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeErgonomicGripSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeFortifyingGripSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeClubBarbedWireSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeClubMetalSpikesSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeGraveDiggerSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeBunkerBusterSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeIronBreakerSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeWoodSplitterSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modMeleeClubBurningShaftSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorInsulatedLinerSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorCoolingMeshSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorImprovedFittingsSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorCustomizedFittingsSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorPlatingBasicSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorPlatingReinforcedSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorStoragePocketSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorDoubleStoragePocketSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorTripleStoragePocketSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorMuffledConnectorsSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorAdvancedMuffledConnectorsSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorImpactBracingSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorBandolierSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorBandolierSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorWaterPurifierSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorHelmetLightSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modFuelTankSmallSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modFuelTankSmallSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modFuelTankLargeSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modFuelTankLargeSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modRoboticDroneCargoModSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modRoboticDroneCargoModSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modRoboticDroneMedicModSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modRoboticDroneMedicModSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modRoboticDroneHeadlampModSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modRoboticDroneHeadlampModSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modRoboticDroneArmorPlatingModSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modRoboticDroneArmorPlatingModSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modRoboticDroneMoraleBoosterModSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modRoboticDroneMoraleBoosterModSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleFuelSaverSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleFuelSaverSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleOffRoadHeadlightsSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleOffRoadHeadlightsSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleSuperChargerSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleSuperChargerSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleExpandedSeatSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleExpandedSeatSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleReserveFuelTankSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleReserveFuelTankSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='foodCanShamSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_foodCanShamSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='plantedGraceCorn1Schematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_plantedGraceCorn1Schematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modArmorQuadStoragePocketSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modArmorQuadStoragePocketSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='harvestingToolsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_harvestingToolsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehiclePlowSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehiclePlowSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='modVehicleArmorSchematic']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_modVehicleArmorSchematic" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='repairToolsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_repairToolsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='salvageToolsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_salvageToolsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='knucklesSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_knucklesSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bladesSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bladesSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='clubsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_clubsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='sledgehammersSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_sledgehammersSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='spearsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_spearsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bowsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bowsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='handgunsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_handgunsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='shotgunsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_shotgunsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='riflesSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_riflesSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='machineGunsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_machineGunsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='explosivesSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_explosivesSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='roboticsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_roboticsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='armorSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_armorSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='medicalSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_medicalSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='foodSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_foodSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='seedSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_seedSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='electricianSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_electricianSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='trapsSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_trapsSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='workstationSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_workstationSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='vehiclesSkillMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_vehiclesSkillMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacHeat']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacHeat" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacAxes']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacAxes" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacSpeed']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacSpeed" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacMolotov']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacMolotov" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacPrevention']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacPrevention" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacHarvest']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacHarvest" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacEquipment']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookFiremansAlmanacEquipment" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerStealthDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerStealthDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerSilentNight']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerSilentNight" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerBlades']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerBlades" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerThiefAdrenaline']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerThiefAdrenaline" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerArchery']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerArchery" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerTwilightThief']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerTwilightThief" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerSlumberParty']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNightStalkerSlumberParty" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterDukes']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterDukes" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterAmmunition']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterAmmunition" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterBrass']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterBrass" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterLead']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterLead" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterBooks']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterBooks" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterFood']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterFood" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterMedical']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookLuckyLooterMedical" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerApparel']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerApparel" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerPunks']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerPunks" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerIntimidation']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerIntimidation" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerAPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerAPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerHPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerHPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerCriminalPursuit']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookEnforcerCriminalPursuit" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpBigHits']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpBigHits" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpStealingBases']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpStealingBases" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpSlowPitch']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpSlowPitch" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpKnockdown']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpKnockdown" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpMaintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpMaintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpFoulBalls']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpFoulBalls" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpMetalChain']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBatterUpMetalChain" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistSafes']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistSafes" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistGems']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistGems" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistGoldRush']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistGoldRush" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistClaimed']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistClaimed" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistAdrenalineFall']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistAdrenalineFall" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistSprintSneak']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistSprintSneak" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistMotionDetection']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookGreatHeistMotionDetection" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresHoney']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresHoney" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresCoffins']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresCoffins" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresAcid']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresAcid" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresWater']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresWater" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresDoors']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresDoors" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresCloth']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresCloth" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresSinks']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookWasteTreasuresSinks" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadWinterWear']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadWinterWear" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadLegwear']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadLegwear" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadFootwear']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadFootwear" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadDesertWear']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadDesertWear" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadDusters']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadDusters" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadPufferCoats']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadPufferCoats" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadPockets']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookNeedleAndThreadPockets" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalBears']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalBears" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalWolves']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalWolves" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalCoyotes']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalCoyotes" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalMountainLions']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalMountainLions" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalDeer']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalDeer" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalVultures']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalVultures" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalSelfDefense']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookHuntingJournalSelfDefense" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningLuckyStrike']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningLuckyStrike" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningDiamondTools']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningDiamondTools" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningCoffee']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningCoffee" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningBlackStrap']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningBlackStrap" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningPallets']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningPallets" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningAvalanche']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningAvalanche" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookArtOfMiningDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersArrowRecovery']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersArrowRecovery" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersExplodingBolts']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersExplodingBolts" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersCripplingShot']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersCripplingShot" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersAPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersAPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersFlamingArrows']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersFlamingArrows" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersForestGuide']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersForestGuide" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookRangersKnockdown']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookRangersKnockdown" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteTakeAim']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteTakeAim" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteSwissKnees']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteSwissKnees" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteSteadyHand']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteSteadyHand" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteMaintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteMaintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteHPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteHPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteAPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteAPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookPistolPeteDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahBreachingSlugs" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahLimbShot']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahLimbShot" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahSlugs']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahSlugs" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahMaintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahMaintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahMagazine']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahMagazine" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahPartyStarter']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookShotgunMessiahPartyStarter" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperCripplingShot']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperCripplingShot" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperHeadShot']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperHeadShot" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperReload']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperReload" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperControlledBreathing']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperControlledBreathing" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperAPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperAPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSniperHPAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSniperHPAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsDamage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsDamage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsUncontrolledBurst']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsUncontrolledBurst" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsMaintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsMaintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsDrumMag']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsDrumMag" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsRecoil']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsRecoil" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsRagdoll']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsRagdoll" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsMachineGuns']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookAutoWeaponsMachineGuns" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatLanding']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatLanding" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatCigar']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatCigar" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatSneaking']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatSneaking" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatJumping']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatJumping" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatLandMines']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatLandMines" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatAdrenalineRush']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatAdrenalineRush" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatRoomClearing']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookUrbanCombatRoomClearing" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie1Damage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie1Damage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie2Maintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie2Maintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie3APAmmo']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie3APAmmo" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie4Shells']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie4Shells" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie5Repulsor']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie5Repulsor" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie6BatonCharge']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie6BatonCharge" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie7Hydraulics']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookTechJunkie7Hydraulics" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling1BasicMoves']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling1BasicMoves" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling2DropABomb']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling2DropABomb" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling3KillerInstinct']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling3KillerInstinct" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling4FinishingMoves']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling4FinishingMoves" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling5AdrenalineHealing']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling5AdrenalineHealing" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling6RageMode']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling6RageMode" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling7BoozedUp']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookBarBrawling7BoozedUp" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter1Damage']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter1Damage" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter2Maintenance']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter2Maintenance" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter3Bleed']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter3Bleed" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter4KillMove']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter4KillMove" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter5RapidStrike']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter5RapidStrike" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter6PenetratingShaft']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter6PenetratingShaft" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter7QuickStrike']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_bookSpearHunter7QuickStrike" target="selfOtherPlayers" target_tags="ally,party"/>
+		</effect_group>
+	</append>
+	<insertBefore xpath="/items//triggered_effect[contains(@buff,'buff_sharedReading_')]">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffSharedReadingCooldown"/>
+	</insertBefore>
+	<!-- (<item name=\")(.*?)(\">) -->
+	<!-- <append xpath="/items/item[@name='\2']">\n	<effect_group tiered="false">\n		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_sharedReading_\2" target="selfOtherPlayers" target_tags="ally,party"/>\n	</effect_group>\n</append>\n -->
+</configs>

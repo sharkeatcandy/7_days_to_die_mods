@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <!-- 删除一些很吵声音 -->
+    <!-- 发电机空转声音 -->
+    <remove xpath="/Sounds/SoundDataNode[@name='generator_run']" />
+
+    <!-- 太阳能电池板声音 -->
+    <remove xpath="/Sounds/SoundDataNode[@name='solarpanel_idle']" />
+
+    <!-- 电池组声音 -->
+    <remove xpath="/Sounds/SoundDataNode[@name='batterybank_idle']" />
+
+    <!-- 炮塔通电空闲声音 -->
+    <remove xpath="/Sounds/SoundDataNode[@name='turret_retarget_lp']" />
+
+    <!-- 垃圾箱苍蝇的声音 -->
+    <remove xpath="/Sounds/SoundDataNode[@name='flies_lp']" />
+
+</configs>

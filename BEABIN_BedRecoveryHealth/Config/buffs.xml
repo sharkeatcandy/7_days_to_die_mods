@@ -5,8 +5,8 @@
 			<stack_type value="replace"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.6" effect_name="Drunk"/>
-				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+				<!-- <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.6" effect_name="Drunk"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/> -->
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" value_type="modifiedmax" stat="Health" target="self" operation="add" value="0.25"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" target="self" operation="add" value="0.25"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" value_type="modifiedmax" stat="stamina" target="self" operation="add" value="0.5"/>

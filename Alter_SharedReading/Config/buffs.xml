@@ -1,0 +1,2764 @@
+<configs>
+	<append xpath="/buffs">
+		<buff name="buffSharedReadingCooldown">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+		</buff>
+	</append>
+	<!-- SCHEMATICS -->
+	<append xpath="/buffs">
+		<buff name="buff_sharedReading_modGunBarrelExtenderSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunBarrelExtender" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunMuzzleBrakeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunMuzzleBrake" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunSoundSuppressorSilencerSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunSoundSuppressorSilencer" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunLaserSightSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunLaserSight" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunFlashlightSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunFlashlight" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunScopeSmallSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunScopeSmall" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunScopeMediumSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunScopeMedium" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunScopeLargeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunScopeLarge" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunReflexSightSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunReflexSight" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunTriggerGroupSemiSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunTriggerGroupSemi" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunTriggerGroupBurst3Schematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunTriggerGroupBurst3" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunTriggerGroupAutomaticSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunTriggerGroupAutomatic" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunBipodSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunBipod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunForegripSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunForegrip" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunRetractingStockSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunRetractingStock" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunDuckbillSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunDuckbill" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunChokeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunChoke" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunMagazineExtenderSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunMagazineExtender" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modShotgunSawedOffBarrelSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modShotgunSawedOffBarrel" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunCrippleEmSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunCrippleEm" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunBowPolymerStringSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunBowPolymerString" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunBowArrowRestSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunBowArrowRest" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunMeleeTheHunterSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunMeleeTheHunter" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modGunMeleeRadRemoverSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modGunMeleeRadRemover" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeTemperedBladeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeTemperedBlade" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeSerratedBladeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeSerratedBlade" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeWeightedHeadSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeWeightedHead" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeStructuralBraceSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeStructuralBrace" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeErgonomicGripSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeErgonomicGrip" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeFortifyingGripSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeFortifyingGrip" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeClubBarbedWireSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeClubBarbedWire" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeClubMetalSpikesSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeClubMetalSpikes" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeGraveDiggerSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeGraveDigger" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeBunkerBusterSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeBunkerBuster" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeIronBreakerSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeIronBreaker" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeWoodSplitterSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeWoodSplitter" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modMeleeClubBurningShaftSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modMeleeClubBurningShaft" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorInsulatedLinerSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorInsulatedLiner" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorCoolingMeshSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorCoolingMesh" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorImprovedFittingsSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorImprovedFittings" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorCustomizedFittingsSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorCustomizedFittings" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorPlatingBasicSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorPlatingBasic" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorPlatingReinforcedSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorPlatingReinforced" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorStoragePocketSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorStoragePocket" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorDoubleStoragePocketSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorDoubleStoragePocket" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorTripleStoragePocketSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorTripleStoragePocket" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorMuffledConnectorsSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorMuffledConnectors" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorAdvancedMuffledConnectorsSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorAdvancedMuffledConnectors" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorImpactBracingSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorImpactBracing" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorBandolierSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorBandolier" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorWaterPurifierSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorWaterPurifier" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorHelmetLightSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorHelmetLight" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modFuelTankSmallSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modFuelTankSmall" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modFuelTankLargeSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modFuelTankLarge" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modRoboticDroneCargoModSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modRoboticDroneCargoMod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modRoboticDroneMedicModSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modRoboticDroneMedicMod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modRoboticDroneHeadlampModSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modRoboticDroneHeadlampMod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modRoboticDroneArmorPlatingModSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modRoboticDroneArmorPlatingMod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modRoboticDroneMoraleBoosterModSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modRoboticDroneMoraleBoosterMod" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleFuelSaverSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleFuelSaver" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleOffRoadHeadlightsSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleOffRoadHeadlights" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleSuperChargerSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleSuperCharger" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleExpandedSeatSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleExpandedSeat" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleReserveFuelTankSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleReserveFuelTank" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_foodCanShamSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="foodCanSham" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_plantedGraceCorn1Schematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="plantedGraceCorn1" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modArmorQuadStoragePocketSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modArmorQuadStoragePocket" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehiclePlowSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehiclePlow" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_modVehicleArmorSchematic">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="modVehicleArmor" operation="set" value="1"/>
+			</effect_group>
+		</buff>
+	</append>
+	<!-- MAGAZINES -->
+	<append xpath="/buffs">
+		<buff name="buff_sharedReading_harvestingToolsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_repairToolsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingRepairTools" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_salvageToolsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_knucklesSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingKnuckles" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bladesSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingBlades" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_clubsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingClubs" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_sledgehammersSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_spearsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingSpears" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bowsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingBows" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_handgunsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingHandguns" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_shotgunsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingShotguns" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_riflesSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingRifles" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_machineGunsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_explosivesSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingExplosives" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_roboticsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingRobotics" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_armorSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingArmor" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_medicalSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingMedical" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_foodSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingFood" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_seedSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingSeeds" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_electricianSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingElectrician" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_trapsSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingTraps" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_workstationSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingWorkstations" level="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_vehiclesSkillMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddProgressionLevel" progression_name="craftingVehicles" level="1"/>
+			</effect_group>
+		</buff>
+	</append>
+	<!-- BOOKS -->
+	<append xpath="/buffs">
+		<buff name="buff_sharedReading_bookFiremansAlmanacHeat">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacHeat" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacHeat" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacAxes">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacAxes" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacAxes" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacSpeed">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacSpeed" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacSpeed" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacMolotov">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacMolotov" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacPrevention">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacPrevention" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacPrevention" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacHarvest">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacHarvest" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacHarvest" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookFiremansAlmanacEquipment">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacEquipment" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacEquipment" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillFiremansAlmanac" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerStealthDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerStealthDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerStealthDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerSilentNight">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerSilentNight" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerSilentNight" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerBlades">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerBlades" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerBlades" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerThiefAdrenaline">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerThiefAdrenaline" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerThiefAdrenaline" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerArchery">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerArchery" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerArchery" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerTwilightThief">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerTwilightThief" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerTwilightThief" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNightStalkerSlumberParty">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNightStalkerSlumberParty" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerSlumberParty" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNightStalker" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterDukes">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterDukes" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterDukes" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterAmmunition">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterAmmunition" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterAmmunition" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterBrass">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterBrass" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterBrass" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterLead">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterLead" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterLead" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterBooks">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterBooks" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterBooks" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterFood">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterFood" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterFood" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookLuckyLooterMedical">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkLuckyLooterMedical" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterMedical" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillLuckyLooter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerApparel">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerApparel" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerApparel" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerPunks">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerPunks" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerPunks" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerIntimidation">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerIntimidation" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerIntimidation" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerAPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerAPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerAPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerHPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerHPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerHPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookEnforcerCriminalPursuit">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerCriminalPursuit" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerCriminalPursuit" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpBigHits">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpBigHits" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpBigHits" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpStealingBases">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpStealingBases" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpStealingBases" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpSlowPitch">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpSlowPitch" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpSlowPitch" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpKnockdown">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpKnockdown" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpKnockdown" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpMaintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpMaintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpMaintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpFoulBalls">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpFoulBalls" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpFoulBalls" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBatterUpMetalChain">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpMetalChain" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpMetalChain" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBatterUp" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistSafes">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistSafes" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistSafes" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistGems">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistGems" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistGems" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistGoldRush">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistGoldRush" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistGoldRush" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistClaimed">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistClaimed" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistClaimed" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistAdrenalineFall">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistAdrenalineFall" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistAdrenalineFall" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistSprintSneak">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistSprintSneak" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistSprintSneak" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookGreatHeistMotionDetection">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkGreatHeistMotionDetection" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistMotionDetection" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresHoney">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresHoney" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresHoney" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresCoffins">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresCoffins" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresCoffins" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresAcid">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresAcid" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresAcid" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresWater">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresWater" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresWater" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresDoors">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresDoors" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresDoors" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresCloth">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresCloth" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresCloth" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookWasteTreasuresSinks">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkWasteTreasuresSinks" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresSinks" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillWasteTreasures" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadWinterWear">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadWinterWear" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadWinterWear" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadLegwear">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadLegwear" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadLegwear" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadFootwear">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadFootwear" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadFootwear" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadDesertWear">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadDesertWear" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadDesertWear" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadDusters">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadDusters" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadDusters" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadPufferCoats">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadPufferCoats" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadPufferCoats" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookNeedleAndThreadPockets">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadPockets" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadPockets" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalBears">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalBears" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalBears" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalWolves">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalWolves" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalWolves" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalCoyotes">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalCoyotes" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalCoyotes" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalMountainLions">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalMountainLions" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalMountainLions" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalDeer">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalDeer" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalDeer" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalVultures">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalVultures" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalVultures" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookHuntingJournalSelfDefense">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkHuntingJournalSelfDefense" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalSelfDefense" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillHuntingJournal" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningLuckyStrike">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningLuckyStrike" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningLuckyStrike" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningDiamondTools">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningDiamondTools" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningDiamondTools" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningCoffee">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningCoffee" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningCoffee" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningBlackStrap">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningBlackStrap" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningBlackStrap" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningPallets">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningPallets" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningPallets" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningAvalanche">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningAvalanche" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningAvalanche" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookArtOfMiningDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArtOfMiningDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArtOfMining" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersArrowRecovery">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersArrowRecovery" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersArrowRecovery" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersExplodingBolts">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersExplodingBolts" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersExplodingBolts" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersCripplingShot">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersCripplingShot" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersAPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersAPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersAPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersFlamingArrows">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersFlamingArrows" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersFlamingArrows" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersForestGuide">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersForestGuide" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersForestGuide" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookRangersKnockdown">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersKnockdown" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteTakeAim">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteTakeAim" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteTakeAim" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteSwissKnees">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteSwissKnees" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteSwissKnees" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteSteadyHand">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteSteadyHand" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteSteadyHand" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteMaintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteMaintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteMaintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteHPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteHPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteHPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteAPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteAPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteAPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookPistolPeteDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkPistolPeteDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahBreachingSlugs">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahBreachingSlugs" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahBreachingSlugs" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahLimbShot">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahLimbShot" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahLimbShot" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahSlugs">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahSlugs" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahSlugs" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahMaintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahMaintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahMaintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahMagazine">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahMagazine" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahMagazine" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookShotgunMessiahPartyStarter">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkShotgunMessiahPartyStarter" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahPartyStarter" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperCripplingShot">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperCripplingShot" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperCripplingShot" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperHeadShot">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperHeadShot" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperHeadShot" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperReload">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperReload" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperReload" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperControlledBreathing">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperControlledBreathing" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperControlledBreathing" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperAPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperAPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperAPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSniperHPAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSniperHPAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperHPAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsDamage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsDamage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsDamage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsUncontrolledBurst">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsUncontrolledBurst" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsUncontrolledBurst" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsMaintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsMaintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsMaintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsDrumMag">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsDrumMag" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsDrumMag" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsRecoil">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsRecoil" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsRecoil" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsRagdoll">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsRagdoll" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsRagdoll" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookAutoWeaponsMachineGuns">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkAutoWeaponsMachineGuns" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsMachineGuns" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillAutoWeapons" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatLanding">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLanding" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatLanding" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatCigar">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatCigar" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatCigar" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatSneaking">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatSneaking" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatSneaking" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatJumping">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatJumping" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatJumping" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatLandMines">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatLandMines" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatLandMines" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatAdrenalineRush">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatAdrenalineRush" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatAdrenalineRush" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookUrbanCombatRoomClearing">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkUrbanCombatRoomClearing" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatRoomClearing" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillUrbanCombat" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie1Damage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie1Damage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie1Damage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie2Maintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie2Maintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie2Maintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie3APAmmo">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie3APAmmo" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie3APAmmo" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie4Shells">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie4Shells" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie4Shells" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie5Repulsor">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie5Repulsor" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie5Repulsor" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie6BatonCharge">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie6BatonCharge" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie6BatonCharge" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookTechJunkie7Hydraulics">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie7Hydraulics" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie7Hydraulics" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling1BasicMoves">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling1BasicMoves" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling1BasicMoves" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling2DropABomb">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling2DropABomb" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling2DropABomb" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling3KillerInstinct">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling3KillerInstinct" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling3KillerInstinct" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling4FinishingMoves">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling4FinishingMoves" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling4FinishingMoves" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling5AdrenalineHealing">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling5AdrenalineHealing" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling5AdrenalineHealing" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling6RageMode">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling6RageMode" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling6RageMode" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookBarBrawling7BoozedUp">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling7BoozedUp" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling7BoozedUp" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillBarBrawling" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter1Damage">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter1Damage" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter1Damage" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter2Maintenance">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter2Maintenance" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter2Maintenance" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter3Bleed">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter3Bleed" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter3Bleed" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter4KillMove">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter4KillMove" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter4KillMove" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter5RapidStrike">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter5RapidStrike" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter5RapidStrike" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter6PenetratingShaft">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter6PenetratingShaft" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter6PenetratingShaft" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buff_sharedReading_bookSpearHunter7QuickStrike">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkSpearHunter7QuickStrike" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter7QuickStrike" level="-1"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" skill_name="skillSpearHunter" operation="GTE" value="7"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+	</append>
+	<insertBefore xpath="/buffs/buff[starts-with(@name,'buff_sharedReading') and contains(@name,'Schematic')]//triggered_effect[@action='AddChatMessage']">
+		<requirement name="NotHasBuff" buff="buffSharedReadingCooldown"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook" play_in_head="true"/>
+	</insertBefore>
+	<insertBefore xpath="/buffs/buff[starts-with(@name,'buff_sharedReading') and contains(@name,'Magazine')]//triggered_effect[@action='AddChatMessage']">
+		<requirement name="NotHasBuff" buff="buffSharedReadingCooldown"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="ui_mag_read" play_in_head="true"/>
+	</insertBefore>
+	<insertBefore xpath="/buffs/buff[starts-with(@name,'buff_sharedReading_book')]//requirement[@name='ProgressionLevel']">
+		<requirement name="NotHasBuff" buff="buffSharedReadingCooldown"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="read_skillbook" play_in_head="true"/>
+	</insertBefore>
+	<!-- (<item name=\")(.*?)(\">)(.*?)(<effect_group.*?)(</effect_group>)(.*?</item>) -->
+	<!-- <buff name="buff_sharedReading_\2\3\n<duration value="0.1"/>\n<stack_type value="replace"/>\n\5\6\n</buff> -->
+	<!-- (<requirement name="ProgressionLevel" progression_name="perk)(.*?)(" operation.*) -->
+	<!-- \1\2\3\n<triggered_effect trigger="onSelfBuffFinish" action="AddChatMessage" message_key="msgSharedReading\2"/> -->
+</configs>
