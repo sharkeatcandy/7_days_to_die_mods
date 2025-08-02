@@ -1,0 +1,5 @@
+<configs>
+	<!-- Edit player entity to increase inventory size -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@operation='base_set']/@value">61</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@operation='base_set']/@value">96</set>
+</configs>

@@ -1,5 +1,4 @@
 <configs>
-	<!-- 2020/6/28  By 無云 -->
 	<append xpath="/buffs">
 		<buff name="buffStandingOnBedRecoveryHealth" name_key="buffStandingOnBedRecoveryHealthName" description_key="buffStandingOnBedRecoveryHealthDesc" tooltip_key="buffStandingOnBedRecoveryHealthTooltip" icon="ui_game_symbol_map_bed" icon_color="0,230,0" icon_blink="true">
 			<stack_type value="replace"/>

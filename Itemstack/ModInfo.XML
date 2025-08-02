@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="NoNoise" />
-	<DisplayName value="NoNoise" />
-	<Description value="Remove noise" />
+	<Name value="Itemstack" />
+	<DisplayName value="Itemstack" />
+	<Description value="Item Stack Size" />
 	<Author value="Shark" />
 	<Version value="2.1" />
 	<Website value="" />
