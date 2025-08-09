@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="BedRecoveryHealth" />
-	<DisplayName value="BedRecoveryHealth" />
-	<Description value="Standing on the bed can restore health." />
+	<Name value="Item_Stack" />
+	<DisplayName value="Item Stack" />
+	<Description value="Item Stack Size" />
 	<Author value="Shark" />
 	<Version value="2.1" />
 	<Website value="" />

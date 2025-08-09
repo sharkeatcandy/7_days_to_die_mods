@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Big_Bag" />
+	<DisplayName value="Big Bag" />
+	<Description value="Your big bag" />
+	<Author value="Shark" />
+	<Version value="2.1" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

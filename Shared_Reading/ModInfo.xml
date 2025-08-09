@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="SharedReading"/>
-	<DisplayName value="SharedReading"/>
+	<Name value="Shared_Reading"/>
+	<DisplayName value="Shared Reading"/>
 	<Version value="2.1"/>
-	<Description value="SharedReading"/>
+	<Description value="Shared Reading"/>
 	<Author value="Shark"/>
 	<Website value=""/>
 	<SkipWithAntiCheat value="true" />

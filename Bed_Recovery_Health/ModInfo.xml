@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="FasterVehicles" />
-	<DisplayName value="FasterVehicles" />
-	<Description value="Improved all of vehicles' maximum speed" />
+	<Name value="Bed_Recovery_Health" />
+	<DisplayName value="Bed Recovery Health" />
+	<Description value="Standing on the bed can restore health." />
 	<Author value="Shark" />
 	<Version value="2.1" />
 	<Website value="" />

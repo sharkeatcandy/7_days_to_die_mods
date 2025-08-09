@@ -2,7 +2,7 @@
 	<append xpath="/controls">
 		<!-- Make cells not look like crap and item icons fit properly -->
 		<kh60_backpack_item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
-			<rect controller="${controller}" style="kh60_itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}" >
+			<rect controller="ItemStack" style="kh60_itemStack, hover" collider_scale="1.0" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false" tooltip="{tooltip}" enabled="{# !defined('userlockmode') or !userlockmode}">
 				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="53" height="53" color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="3" name="background" sprite="menu_empty3px" width="48" height="48" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false"/>
 				<sprite depth="2" name="highlightOverlay" width="47" height="47" color="{backgroundcolor}" pos="0,0" type="sliced" globalopacity="true"/>
@@ -20,8 +20,15 @@
 
 				<label depth="7" name="stackValue" pos="-2,-30" width="45" height="16" text="{itemcount}" font_size="18" effect="outline" justify="{#hasdurability ? 'Center' : 'Right'}" />
 				<label depth="7" name="timer" pos="35,-33" width="45" height="16" font_size="18" justify="center" pivot="center" effect="outline" color="[beige]"/>
-				<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="45" height="45" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true"/>
+				<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="45" height="45" color="255,0,0,255" type="sliced" visible="{# ishovered and islocked}" foregroundlayer="true"/>
 				<sprite depth="13" name="assembleIcon" size="28,28" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true"/>
+				
+				<sprite depth="14" name="quickswapIcon" size="20,20" sprite="server_refresh" pos="30,-2" foregroundlayer="true" visible="{isQuickSwap}" />
+
+				<button name="rectSlotLock" depth="15" style="press, hover" width="50" height="50" visible="{# defined('userlockmode') and userlockmode}" sprite="" hoverscale="1" use_selection_box="true">
+					<sprite depth="16" name="slotLockIcon" width="16" height="16" sprite="{# !defined('userlockmode') ? '' : (userlockedslot ? 'ui_game_symbol_lock' : 'ui_game_symbol_unlock') }" pos="32, -10" style="icon32px" pivot="center" color="{# !defined('userlockmode') ? '255,255,255,1' : (userlockedslot ? '222,206,163' : '255,255,255') }" />
+				</button>
+				<sprite depth="15" name="iconSlotLock" width="14" height="14" sprite="ui_game_symbol_lock" pos="32, -10" style="icon32px" pivot="center" visible="{# defined('userlockmode') and !userlockmode and userlockedslot }" color="[lightGrey]" />
 			</rect>
 		</kh60_backpack_item_stack>
 	</append>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Faster_Vehicles" />
+	<DisplayName value="Faster Vehicles" />
+	<Description value="Improved all of vehicles' maximum speed, and additional seats for vehicle Gyrocopter" />
+	<Author value="Shark" />
+	<Version value="2.1" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

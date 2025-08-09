@@ -1,0 +1,2 @@
+Key,english,tchinese
+msgSharedReading,"Strange knowledge increased because a teammate read a book","因為隊友閱讀了書籍，奇怪的知識增加了"

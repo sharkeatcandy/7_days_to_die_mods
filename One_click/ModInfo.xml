@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="HitBar" />
-	<DisplayName value="HitBar" />
-	<Description value="Show hit bar" />
+	<Name value="One_Click" />
+	<DisplayName value="OneClick" />
+	<Description value="Get all resources in one click" />
 	<Author value="Shark" />
 	<Version value="2.1" />
 	<Website value="" />
