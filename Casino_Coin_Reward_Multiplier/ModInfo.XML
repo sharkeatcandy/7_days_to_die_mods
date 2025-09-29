@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Casino_Coin_Reward_Multiplier" />
+	<DisplayName value="Casino Coin Reward x20" />
+	<Description value="Multiplies all Casino Coin quest rewards by 20" />
+	<Author value="Shark" />
+	<Version value="1.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

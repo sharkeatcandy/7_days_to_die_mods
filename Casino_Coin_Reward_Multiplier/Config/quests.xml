@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- Casino Coin Reward Multiplier x20 -->
+	
+	<!-- *** FETCH QUESTS *** -->
+	<!-- Tier 1 Fetch: 100 -> 2000 -->
+	<set xpath="/quests/quest[@id='tier1_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">2000</set>
+	
+	<!-- Tier 2 Fetch: 200 -> 4000 -->
+	<set xpath="/quests/quest[@id='tier2_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">4000</set>
+	
+	<!-- Tier 3 Fetch: 300 -> 6000 -->
+	<set xpath="/quests/quest[@id='tier3_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">6000</set>
+	
+	<!-- Tier 4 Fetch: 500 -> 10000 -->
+	<set xpath="/quests/quest[@id='tier4_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">10000</set>
+	
+	<!-- Tier 5 Fetch: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier5_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- Tier 6 Fetch: 3000 -> 60000 -->
+	<set xpath="/quests/quest[@id='tier6_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">60000</set>
+	
+	<!-- *** CLEAR QUESTS *** -->
+	<!-- Tier 1 Clear: 400 -> 8000 -->
+	<set xpath="/quests/quest[@id='tier1_clear']/reward[@type='Item' and @id='casinoCoin']/@value">8000</set>
+	
+	<!-- Tier 2 Clear: 500 -> 10000 -->
+	<set xpath="/quests/quest[@id='tier2_clear']/reward[@type='Item' and @id='casinoCoin']/@value">10000</set>
+	
+	<!-- Tier 3 Clear: 800 -> 16000 -->
+	<set xpath="/quests/quest[@id='tier3_clear']/reward[@type='Item' and @id='casinoCoin']/@value">16000</set>
+	
+	<!-- Tier 4 Clear: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier4_clear']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- Tier 5 Clear: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='tier5_clear']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 6 Clear: 4000 -> 80000 -->
+	<set xpath="/quests/quest[@id='tier6_clear']/reward[@type='Item' and @id='casinoCoin']/@value">80000</set>
+	
+	<!-- *** INFESTED CLEAR QUESTS *** -->
+	<!-- Tier 2 Clear Infested: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier2_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- Tier 3 Clear Infested: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='tier3_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 4 Clear Infested: 3000 -> 60000 -->
+	<set xpath="/quests/quest[@id='tier4_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">60000</set>
+	
+	<!-- Tier 5 Clear Infested: 4000 -> 80000 -->
+	<set xpath="/quests/quest[@id='tier5_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">80000</set>
+	
+	<!-- Tier 6 Clear Infested: 6000 -> 120000 -->
+	<set xpath="/quests/quest[@id='tier6_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">120000</set>
+	
+	<!-- *** RESTORE POWER QUESTS *** -->
+	<!-- Tier 2 Restore Power: 800 -> 16000 -->
+	<set xpath="/quests/quest[@id='tier2_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">16000</set>
+	
+	<!-- Tier 3 Restore Power: 1500 -> 30000 -->
+	<set xpath="/quests/quest[@id='tier3_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">30000</set>
+	
+	<!-- Tier 4 Restore Power: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='tier4_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- *** FETCH AND CLEAR QUESTS *** -->
+	<!-- Tier 2 Fetch Clear: 700 -> 14000 -->
+	<set xpath="/quests/quest[@id='tier2_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">14000</set>
+	
+	<!-- Tier 3 Fetch Clear: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier3_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- Tier 4 Fetch Clear: 1500 -> 30000 -->
+	<set xpath="/quests/quest[@id='tier4_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">30000</set>
+	
+	<!-- Tier 5 Fetch Clear: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='tier5_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 6 Fetch Clear: 5000 -> 100000 -->
+	<set xpath="/quests/quest[@id='tier6_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">100000</set>
+	
+	<!-- *** BURIED SUPPLIES QUESTS *** -->
+	<!-- Tier 1 Buried Supplies: 250 -> 5000 -->
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">5000</set>
+	
+	<!-- Tier 2 Buried Supplies: 500 -> 10000 -->
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">10000</set>
+	
+	<!-- Tier 3 Buried Supplies: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- *** TEST QUESTS *** -->
+	<!-- Test Sleepers: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_sleepers']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Sleepers Infested: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_sleepers_infested']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Fetch: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Fetch Sleep: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_fetchsleep']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Fetch Infested: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_fetchinfested']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Hidden Sleep: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_hiddensleep']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Restore Power: 350 -> 7000 -->
+	<set xpath="/quests/quest[@id='test_restorepower']/reward[@type='Item' and @id='casinoCoin']/@value">7000</set>
+	
+	<!-- Test Turn In: 200 -> 4000 -->
+	<set xpath="/quests/quest[@id='test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">4000</set>
+	
+	<!-- *** QUEST TIER COMPLETE REWARDS *** -->
+	<!-- Tier 1 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier1complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 2 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier2complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 3 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier3complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 4 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier4complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 5 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier5complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- Tier 6 Complete: 2000 -> 40000 -->
+	<set xpath="/quests/quest[@id='quest_tier6complete']/reward[@type='Item' and @id='casinoCoin']/@value">40000</set>
+	
+	<!-- *** ADMIN TEST QUESTS *** -->
+	<!-- Tier 1 Test Turn In: 100 -> 2000 -->
+	<set xpath="/quests/quest[@id='tier1_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">2000</set>
+	
+	<!-- Tier 2 Test Turn In: 200 -> 4000 -->
+	<set xpath="/quests/quest[@id='tier2_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">4000</set>
+	
+	<!-- Tier 3 Test Turn In: 300 -> 6000 -->
+	<set xpath="/quests/quest[@id='tier3_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">6000</set>
+	
+	<!-- Tier 4 Test Turn In: 500 -> 10000 -->
+	<set xpath="/quests/quest[@id='tier4_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">10000</set>
+	
+	<!-- Tier 5 Test Turn In: 1000 -> 20000 -->
+	<set xpath="/quests/quest[@id='tier5_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">20000</set>
+	
+	<!-- Tier 6 Test Turn In: 3000 -> 60000 -->
+	<set xpath="/quests/quest[@id='tier6_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">60000</set>
+</configs>
